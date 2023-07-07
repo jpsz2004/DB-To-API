@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table thead {
+    background-color: #0ff878;
+}
+
+table thead th {
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgb(206, 205, 205);
+}
+
+table tbody td{
+    padding: 10px;
+}
+
+table tbody img{
+    width: 50px;
+    height: 50px;
+}
